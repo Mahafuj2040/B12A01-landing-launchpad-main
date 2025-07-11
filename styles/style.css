@@ -209,3 +209,93 @@ nav li a{
     line-height: 20px;
     align-items: center;
 }
+
+/* Focus Section design */
+.focus{
+    max-width: 1140px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.focus-des{
+    display: flex;
+    justify-content: center;
+}
+.focus img{
+    border-radius: 35px;
+    margin-bottom: 70px;
+}
+
+/* Touh style */
+.touch{
+    max-width: 1140px;
+    margin: auto;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 14px; */
+}
+.touch-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.touch-col-l h1{
+    font-size: 97px;
+    font-weight: bold;
+}
+.touch-col-r input{
+    display: block;
+}
+.touch-col-r label{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+.touch-i{
+    margin-bottom: 30px;
+    border-radius: 6px;
+    width: 495px;
+    height: 70px;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+input::placeholder,
+textarea::placeholder {
+    color: #888888;            
+    font-size: 20px;
+    font-weight: 500;        
+    letter-spacing: 1px;     
+}
+textarea.touch-i{
+    height: 150px;
+    width: 495px;
+    resize: vertical;
+}
+
+input[type="submit"]{
+    background-color: #4E47FF;
+    padding: 19px 233px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+}
+input[type="submit"]:hover{
+    background-color: #4d47ffb6;
+}
